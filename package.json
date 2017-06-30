@@ -1,0 +1,23 @@
+{
+  "name": "d3datavis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "2.16.0"
+  },
+  "scripts": {
+    "start": "browser-sync start -s -f index.html src --no-ui --no-notify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DariaDesiderata/d3datavis.git"
+  },
+  "author": "DariaDesiderata",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DariaDesiderata/d3datavis/issues"
+  },
+  "homepage": "https://github.com/DariaDesiderata/d3datavis#readme"
+}
