@@ -8,7 +8,7 @@
     "browser-sync": "2.16.0"
   },
   "scripts": {
-    "start": "browser-sync start -s -f index.html src --no-ui --no-notify"
+    "start": "browser-sync start -s -f jsonRender.html src --no-ui --no-notify"
   },
   "repository": {
     "type": "git",

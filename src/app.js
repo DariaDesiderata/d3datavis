@@ -24,12 +24,22 @@ function createReds() {
   }
 }
 
-function createLine() {
+function createVertLine() {
   mainSVG.append('line')
     .attr('x1', innerWidth/2)
     .attr('y1', 10)
     .attr('x2', innerWidth/2)
-    .attr('y2', innerHeight-10)
+    .attr('y2', innerHeight-20)
+    .attr('stroke', '#00ffc8')
+    .attr('stroke-width', 3)
+}
+
+function createHorLine() {
+  mainSVG.append('line')
+    .attr('x1', 10)
+    .attr('y1', innerHeight/2)
+    .attr('x2', innerWidth - 20)
+    .attr('y2', innerHeight/2)
     .attr('stroke', '#00ffc8')
     .attr('stroke-width', 3)
 }
@@ -47,6 +57,7 @@ function styleBlueCircles() {
 createSVG()
 createReds()
 createBlues()
-createLine()
-setTimeout(styleRedCircles, 1000)
-setTimeout(styleBlueCircles, 1000)
+createVertLine()
+createHorLine()
+setTimeout(styleRedCircles, 2000)
+setTimeout(styleBlueCircles, 2000)
